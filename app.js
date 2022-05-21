@@ -6,7 +6,7 @@ app.get('/', (req, res) => {
     message: 'ok',
   })
 })
-
+console.log(process.env)
 app.listen(5000, () => {
   console.log('server is runningd ')
 })
